@@ -19,7 +19,7 @@ This project seeks to help the Alphabet Soup foundation predict where to make in
 How many neurons, layers, and activation functions did you select for your neural network model, and why? 
 
 
-[](Resources/screenshots/change3.png)
+![](Resources/screenshots/change3.png)
 
 
 Were you able to achieve the target model performance?

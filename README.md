@@ -7,11 +7,11 @@ This project seeks to help the Alphabet Soup foundation predict where to make in
 
 ### Data Preprocessing
 
-What variable(s) are considered the target(s) for your model? The target is the predicted outcome, which in this case is the "IS_SUCCESSFUL" column. 
+  * The target is the predicted outcome, which in this case is the IS_SUCCESSFUL column. 
 
-What variable(s) are considered to be the features for your model? The features are all of the variables used to make a prediction which include all of the following: APPLICATION_TYPE,AFFILIATION,CLASSIFICATION,USE_CASE,ORGANIZATION,STATUS,INCOME_AMT,SPECIAL_CONSIDERATIONS,ASK_AMT
+  * The features are all of the variables used to make a prediction which include all of the following: APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT
 
-What variable(s) are neither targets nor features, and should be removed from the input data? "EIN" and "NAME" were removed from the dataset because they do not influence the dataset. They are just used as identifiers.
+* EIN and NAME were removed from the dataset because they are identifiers, rather than variables.
 
 
 ### Compiling, Training, and Evaluating the Model
